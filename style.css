@@ -1,0 +1,108 @@
+html {
+	font-family: 'Cascadia Code', 'Ubuntu';
+	background-color: #131516;
+	color: azure;
+}
+
+#container {
+	font-family: 'Cascadia Code', 'Ubuntu';
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#info {
+	text-align: center;
+	bottom: auto;
+}
+#rule {
+	vertical-align: middle;
+	transition: all 0.5s ease;
+}
+#rule:hover {
+	transform: scale(1.1);
+}
+#span {
+	vertical-align: middle;
+}
+h6 {
+	display: inline-block;
+}
+
+button {
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: none;
+	background-color: cornflowerblue;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+button:hover {
+	background-color: rgba(27, 165, 193, 0.86);
+}
+
+button:active {
+	background-color: hsla(199, 80%, 90%, 0.86);
+}
+
+input {
+	font-size: 2rem;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#diceResult {
+	margin: 10px;
+	font-size: 1.4rem;
+}
+
+#diceImages img {
+	width: 100px;
+	margin: 5px;
+	transition: all 0.5s ease;
+}
+#diceImages img:hover {
+	transform: scale(1.1);
+}
+
+button[type='github'] {
+	padding: 5px 8px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: background-color 0.4s ease;
+	transform: scale(1);
+	transition: all 1s ease;
+}
+
+button[type='github']:hover {
+	transition: background-color 0.9s ease;
+	background-color: #af4c9d;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+button[type='github']:active {
+	background-color: hsla(199, 80%, 90%, 0.86);
+}
+
+.footer {
+	background-color: #303030;
+	color: #fff;
+	clear: both;
+	font-family: 'ubuntu';
+
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	border-width: 30%;
+}
